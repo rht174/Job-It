@@ -38,7 +38,7 @@ const JobSearch = () => {
           "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
         },
         params: {
-          query: params.id,
+          query: params.id + "in india",
           page: page.toString(),
         },
       };

@@ -24,6 +24,7 @@ const Home = () => {
           //   );
           // },
           headerTitle: "",
+          headerShown: false,
         }}
       />
       <ScrollView showsVerticalScrollIndicator={false}>
@@ -37,7 +38,7 @@ const Home = () => {
               }
             }}
           />
-          <Popularjobs />
+          {/* <Popularjobs /> */}
           <Nearbyjobs />
         </View>
       </ScrollView>
