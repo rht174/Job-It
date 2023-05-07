@@ -15,14 +15,14 @@ const Home = () => {
         options={{
           headerStyle: { backgroundColor: COLORS.lightWhite },
           headerShadowVisible: false,
-          headerLeft: () => {
-            return <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%" />;
-          },
-          headerRight: () => {
-            return (
-              <ScreenHeaderBtn iconUrl={images.profile} dimension="100%" />
-            );
-          },
+          // headerLeft: () => {
+          //   return <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%" />;
+          // },
+          // headerRight: () => {
+          //   return (
+          //     <ScreenHeaderBtn iconUrl={images.profile} dimension="100%" />
+          //   );
+          // },
           headerTitle: "",
         }}
       />
