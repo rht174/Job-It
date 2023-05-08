@@ -84,9 +84,9 @@ const JobDetails = () => {
               />
             );
           },
-          headerRight: () => {
-            return <ScreenHeaderBtn iconUrl={icons.share} dimension="60%" />;
-          },
+          // headerRight: () => {
+          //   return <ScreenHeaderBtn iconUrl={icons.share} dimension="60%" />;
+          // },
           headerTitle: "",
         }}
       />
