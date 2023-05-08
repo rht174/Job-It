@@ -5,6 +5,14 @@
       "bundler": "metro"
     },
     "name": "jobit",
-    "slug": "jobit"
+    "slug": "jobit",
+    "extra": {
+      "eas": {
+        "projectId": "a6d0e29d-be3d-436d-a644-18fb4ba00a24"
+      }
+    },
+    "android": {
+      "package": "com.rht174.jobit"
+    }
   }
 }
